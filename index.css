@@ -22,7 +22,7 @@ header {
     padding-top: 15px;
 }
 
-#logo {
+.logo {
     font-size: 30px;
     padding-left: 20px;
     text-decoration: none;
