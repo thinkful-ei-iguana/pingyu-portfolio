@@ -1,0 +1,255 @@
+* {
+    font-family: Poiret One;
+    color: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1456894332557-b03dc5cf60d5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=29a9bb29bcbf19a5954d0110b19d5b51");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 1;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#logo {
+    font-size: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+#header li {
+    padding-right: 40px;
+    padding-top: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+.scrollable {
+    font-size: 22px;
+    background: #000;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 60%;
+}
+
+#about .container {
+    background: #000;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 6px;
+}
+
+.about-me {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.intro-text {
+    margin: 30px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.project-container {
+    background: rgba(0, 0, 0, 0.85);
+    max-width: 100%;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.thumbnail {
+    list-style: none;
+    position: relative;
+}
+
+.link {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.project-text {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#projects {
+    border: 0px;
+    background: none;
+    width: 100%;
+}
+
+.contact-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact {
+    width: 100%;
+    margin-top: 150px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.form-control {
+    width: 500px;
+    height: 50px;
+    border: none;
+}
+
+#message {
+    height: 100px;
+}
+
+.form-control {
+    font-size: 20px;
+    color: #000;
+}
+
+.form-group {
+    padding-bottom: 20px;
+}
+
+#submit {
+    width: 100px;
+    background: #000;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-top: 60px;
+}
+
+footer {
+    text-align: center
+}
+
+#footer li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.footer-text {
+    padding-bottom: 20px;
+}
+
+.icons {
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 1.8em;
+}
+
+
+/* for desktops and laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .logo {
+        padding-right: 60px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* for tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    main {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        padding-right: 60px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* for mobiles */
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+    main {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        padding-right: 0;
+    }
+    header {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+
+/* even smaller screens */
+
+@media screen and (max-width: 319px) {
+    main {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        padding-right: 0;
+    }
+    header {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+    }
+}
